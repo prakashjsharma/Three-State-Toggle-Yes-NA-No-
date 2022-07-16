@@ -1,0 +1,27 @@
+.switch-toggle {
+    float: left;
+    height: 2.4em;
+    display: contents;
+}
+
+.switch-toggle input {
+    position: absolute;
+    opacity: 0;
+}
+
+.switch-toggle input+label {
+    padding: 7px;
+    float: left;
+    color: black;
+    cursor: pointer;
+    background-color: #b9b9b9;
+}
+
+.switch-toggle input:checked+label {
+    background: #1f1f1f;
+    position: relative;
+    height: 100%;
+    display: flex;
+    color: #fff;
+    align-items: center;
+}

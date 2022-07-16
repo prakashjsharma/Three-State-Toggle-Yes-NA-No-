@@ -1,0 +1,46 @@
+.switch-toggle {
+    float: left;
+    background: #979797;
+    height: 2.4em;
+    display: contents;
+}
+
+.switch-toggle input {
+    position: absolute;
+    opacity: 0;
+}
+
+.switch-toggle input+label {
+    padding: 7px;
+    float: left;
+    color: black;
+    cursor: pointer;
+    background-color: #b9b9b9;
+}
+
+.switch-toggle input:checked + .togglegreen {
+    background: radial-gradient(#408129, #2b692b);
+    position: relative;
+    height: 100%;
+    display: flex;
+    color: #fff;
+    align-items: center;
+}
+
+.switch-toggle input:checked + .toggleorange {
+    background: radial-gradient(#fb8734, #d57a3a);
+    position: relative;
+    height: 100%;
+    display: flex;
+    color: #fff;
+    align-items: center;
+}
+
+.switch-toggle input:checked + .togglered {
+    background: radial-gradient(#f94a4a, #b53535);
+    position: relative;
+    height: 100%;
+    display: flex;
+    color: #fff;
+    align-items: center;
+}
